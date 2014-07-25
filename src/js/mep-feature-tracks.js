@@ -563,6 +563,7 @@
 					text,
 					identifier;
 				for(; i<lines.length; i++) {
+					// check for the line number
 					timecode = this.pattern_timecode.exec(lines[i]);
 
 					if (timecode && i<lines.length) {
